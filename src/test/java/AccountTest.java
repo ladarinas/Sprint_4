@@ -37,7 +37,9 @@ public class AccountTest {
                 //два пробела
                 {"Тестик Тестов Оглы", false},
                 //пустая строка
-                {"", false}
+                {"", false},
+                //null
+                {null, false}
         };
     }
 

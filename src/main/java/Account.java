@@ -6,6 +6,9 @@ public class Account {
     }
 
     public boolean checkNameToEmboss() {
+        if (name == null) {
+            return false;
+        }
         return name.matches("(?=.{3,19}$)(\\S+\\s\\S+)");
     }
 }
